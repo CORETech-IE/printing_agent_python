@@ -1,0 +1,32 @@
+{
+	"main":
+	{
+		"oracle_client": "c:\\Oracle\\instantclient_21_10\\",
+		"client_name": "CORE Test Systems",
+		"execution_pause_time": 10,
+		"logging_backup_count": 7,
+		"logging_max_file_size": 10485760, 
+		"logging_file_name": "CoreTechPrintAgent.log",
+		"logging_set_level": "DEBUG",
+		"stats_backup_count": 7,
+		"stats_max_file_size": 10485760, 
+		"stats_file_name": "CoreTechPrintAgentStats.log",
+		"email_on_error": "alejandro.prado@coretechnology.ie",
+		"email_on_critical": "alejandro.prado@coretechnology.ie",
+		"email_server": "CUL-SSV-MAIL1",
+		"email_port": "25"
+	},
+	"oracle_connections": {
+		"0": {
+			"oracle_connection_name": "DEV",
+			"oracle_username": "gAAAAABoJZ7xRH_Ya4YeD-wyNCtus0kdivhP0qbrGB1uRN0R1XHx_d8S4tFHo_CohYrWInMyJjP6rcV2B4I0xW4gcNxMSoJRAQ==",
+			"oracle_password": "gAAAAABoJZ8HQ934mtJ53rUIvvBhBHGat_ycVuaRE0r2DLscTMI9TR4DNGJqmymA9QywPyljUg2efbKGhUV9MWqtkM6bz6W3fA==",
+			"oracle_host": "CUL-COR-DB01",
+			"oracle_port": 1521,
+			"oracle_service": "dev",
+			"oracle_retry_wait_time": "15",
+			"email_on_error": "alejandro.prado@coretechnology.ie",
+			"email_on_error_freq": 60
+		}
+	}
+}
